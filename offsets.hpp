@@ -36,4 +36,5 @@ namespace offsets {
         std::uintptr_t Persistent_Level = 0x38; // Class Engine.World -> struct ULevel* PersistentLevel;
         std::uintptr_t  Inventory 0x988  // // Class ShooterGame.ShooterCharacter -> struct UAresInventory* Inventory;
         std::uintptr_t CurrentEquippable 0x248 //// Class Class ShooterGame.AresInventory -> struct AAresEquippable* CurrentEquippable;
+        std::uintptr_t trigger_veh =  0x21B1400;
 }

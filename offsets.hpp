@@ -34,7 +34,41 @@ namespace offsets {
         std::uintptr_t GameInstance = 0x1a0; // Class Engine.World -> struct UGameInstance* OwningGameInstance;
         std::uintptr_t damage_handler= 0x9e8; // Class ShooterGame.ShooterCharacter -> struct UDamageableComponent* DamageHandler;
         std::uintptr_t Persistent_Level = 0x38; // Class Engine.World -> struct ULevel* PersistentLevel;
-        std::uintptr_t  Inventory 0x988  // // Class ShooterGame.ShooterCharacter -> struct UAresInventory* Inventory;
-        std::uintptr_t CurrentEquippable 0x248 //// Class Class ShooterGame.AresInventory -> struct AAresEquippable* CurrentEquippable;
-        std::uintptr_t trigger_veh =  0x21B1400;
+        std::uintptr_t Inventory = 0x988;  // // Class ShooterGame.ShooterCharacter -> struct UAresInventory* Inventory;
+        std::uintptr_t CurrentEquippable = 0x248; //// Class Class ShooterGame.AresInventory -> struct AAresEquippable* CurrentEquippable;
+        std::uintptr_t uworld_state = 0xADB4A80;
+        std::uintptr_t fname_pool = 0xAB60E00;
+        std::uintptr_t decrypt_wide = 0x4306E00;
+        std::uintptr_t decrypt_non_wide = 0x4306D90;
+        std::uintptr_t set_ares_outline_mode = 0x5FDA5C5;
+        std::uintptr_t get_actor_bounds = 0x277E67D;
+         
+        std::uintptr_t get_spread_values = 0x3136EB0;
+        std::uintptr_t get_spread_angles = 0x3A718A0;
+        std::uintptr_t to_vector_and_normalize = 0x4287DE0;
+        std::uintptr_t to_angle_and_normalize = 0x4284390;
+        std::uintptr_t get_firing_location = 0x37881D0;
+         
+        std::uintptr_t trigger_veh = 0x21D1D60;
+        std::uintptr_t bone_matrix =  0x602B610;
+        std::uintptr_t input_key = 0x66CEF70;
+        std::uintptr_t line_of_sight = 0x5D1FD42;
+        std::uintptr_t skin_changer_decrypt = 0x316A650;
+        std::uintptr_t process_event = 0x4579A90;
+        std::uintptr_t find_object = 0x458E0D0;
+        std::uintptr_t load_object = 0x458EB80;
+        std::uintptr_t project_world_to_screen = 0x39543A4;
+        std::uintptr_t get_view_point = 0x628CAB0;
+         
+        std::uintptr_t set_ares_outline_mode = 0x5FDA540;
+        std::uintptr_t set_outline_colors_render = 0x32D4A47;
+        std::uintptr_t enemy_color = 0x4D56009;
+        std::uintptr_t ally_color = 0x4D56002;
+        std::uintptr_t make_render_dirty = 0x5FDA567;
+        std::uintptr_t free_memory = 0x1BF15FC;
+         
+        std::uintptr_t k2_draw_text = 0x67AA2B0;
+        std::uintptr_t k2_draw_text_alt = 0x66D2690;
+        std::uintptr_t k2_draw_line = 0x67A99D9;
+        std::uintptr_t k2_draw_box = 0x66D1E40;
 }
